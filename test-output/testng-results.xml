@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Bye]]>
+    </line>
+    <line>
+      <![CDATA[Hi]]>
+    </line>
+    <line>
+      <![CDATA[Byeeeeeeee]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86" started-at="2017-12-16T15:34:01Z" finished-at="2017-12-16T15:34:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="86" started-at="2017-12-16T15:34:01Z" finished-at="2017-12-16T15:34:01Z">
+      <class name="qs.day2.Demo1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:qs.day2.Demo1@feb3fa]" name="beforeMethod" is-config="true" duration-ms="19" started-at="2017-12-16T21:04:01Z" finished-at="2017-12-16T21:04:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Bye]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:qs.day2.Demo1@feb3fa]" name="f" duration-ms="16" started-at="2017-12-16T21:04:01Z" finished-at="2017-12-16T21:04:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:qs.day2.Demo1@feb3fa]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-12-16T21:04:01Z" finished-at="2017-12-16T21:04:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Byeeeeeeee]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- qs.day2.Demo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
